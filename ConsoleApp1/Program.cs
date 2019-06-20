@@ -10,12 +10,10 @@ namespace ConsoleApp1
 
         private static void Main(string[] args)
         {
-             ISpeakerRepository speaker = new Speaker();
-             IPersonRepository person = new Person(speaker);
+            ISpeakerRepository speaker = new Speaker();
+            IPersonRepository person = new Person(speaker);
 
-            person.Talk("hey");
-
-     
+            person.Talk("hey");     
         }
 
         
