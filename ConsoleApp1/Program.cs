@@ -17,10 +17,8 @@ namespace ConsoleApp1
 
             person.Talk("zdarova");
 
-            ISpeakerRepository speaker = new Speaker();
-            IPersonRepository person = new Person(speaker);
+            //говно какое то
 
-            person.Talk("hey");     
 
         }
 
