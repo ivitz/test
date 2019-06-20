@@ -13,7 +13,7 @@ namespace ConsoleApp1
              ISpeakerRepository speaker = new Speaker();
              IPersonRepository person = new Person(speaker);
 
-            person.Talk("fuck you");
+            person.Talk("hey");
 
      
         }
